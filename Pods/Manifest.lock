@@ -1,0 +1,17 @@
+PODS:
+  - BRORM (0.3):
+    - FMDB (~> 2.0)
+  - FMDB (2.1):
+    - FMDB/standard
+  - FMDB/common (2.1)
+  - FMDB/standard (2.1):
+    - FMDB/common
+
+DEPENDENCIES:
+  - BRORM (= 0.3)
+
+SPEC CHECKSUMS:
+  BRORM: fa87167266f1a74dc2cc10dee26973bd34eae40a
+  FMDB: 2769004a271eae0bbd8bd4f45a3f2acfd0d3df0e
+
+COCOAPODS: 0.25.0

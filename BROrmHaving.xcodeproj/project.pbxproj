@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EE205F17F174AF00348130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE205E17F174AF00348130 /* Foundation.framework */; };
+		38EE206117F174AF00348130 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE206017F174AF00348130 /* CoreGraphics.framework */; };
+		38EE206317F174AF00348130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE206217F174AF00348130 /* UIKit.framework */; };
+		38EE206917F174AF00348130 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38EE206717F174AF00348130 /* InfoPlist.strings */; };
+		38EE206B17F174AF00348130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE206A17F174AF00348130 /* main.m */; };
+		38EE206F17F174AF00348130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE206E17F174AF00348130 /* AppDelegate.m */; };
+		38EE207217F174AF00348130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EE207017F174AF00348130 /* Main.storyboard */; };
+		38EE207517F174AF00348130 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE207417F174AF00348130 /* MasterViewController.m */; };
+		38EE207817F174AF00348130 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE207717F174AF00348130 /* DetailViewController.m */; };
+		38EE207A17F174AF00348130 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EE207917F174AF00348130 /* Images.xcassets */; };
+		38EE208117F174AF00348130 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE208017F174AF00348130 /* XCTest.framework */; };
+		38EE208217F174AF00348130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE205E17F174AF00348130 /* Foundation.framework */; };
+		38EE208317F174AF00348130 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE206217F174AF00348130 /* UIKit.framework */; };
+		38EE208B17F174AF00348130 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38EE208917F174AF00348130 /* InfoPlist.strings */; };
+		38EE208D17F174AF00348130 /* BROrmHavingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE208C17F174AF00348130 /* BROrmHavingTests.m */; };
+		38EE209717F174F300348130 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 38EE209617F174F300348130 /* podfile */; };
+		38EE209A17F1779800348130 /* blog.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 38EE209917F1779800348130 /* blog.sqlite */; };
+		38EE209D17F177DD00348130 /* Blog.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE209C17F177DD00348130 /* Blog.m */; };
+		38EE20A117F1786700348130 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE20A017F1786700348130 /* Post.m */; };
+		5A9CD61A693644938F2EE599 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6655011D973440EAA1DAC7E7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38EE208417F174AF00348130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EE205317F174AF00348130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EE205A17F174AF00348130;
+			remoteInfo = BROrmHaving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38EE205B17F174AF00348130 /* BROrmHaving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BROrmHaving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE205E17F174AF00348130 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38EE206017F174AF00348130 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38EE206217F174AF00348130 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38EE206617F174AF00348130 /* BROrmHaving-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BROrmHaving-Info.plist"; sourceTree = "<group>"; };
+		38EE206817F174AF00348130 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38EE206A17F174AF00348130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EE206C17F174AF00348130 /* BROrmHaving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BROrmHaving-Prefix.pch"; sourceTree = "<group>"; };
+		38EE206D17F174AF00348130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38EE206E17F174AF00348130 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38EE207117F174AF00348130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EE207317F174AF00348130 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		38EE207417F174AF00348130 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		38EE207617F174AF00348130 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		38EE207717F174AF00348130 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		38EE207917F174AF00348130 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38EE207F17F174AF00348130 /* BROrmHavingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BROrmHavingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EE208017F174AF00348130 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		38EE208817F174AF00348130 /* BROrmHavingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BROrmHavingTests-Info.plist"; sourceTree = "<group>"; };
+		38EE208A17F174AF00348130 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38EE208C17F174AF00348130 /* BROrmHavingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BROrmHavingTests.m; sourceTree = "<group>"; };
+		38EE209617F174F300348130 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		38EE209917F1779800348130 /* blog.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = blog.sqlite; sourceTree = "<group>"; };
+		38EE209B17F177DD00348130 /* Blog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blog.h; sourceTree = "<group>"; };
+		38EE209C17F177DD00348130 /* Blog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blog.m; sourceTree = "<group>"; };
+		38EE209F17F1786700348130 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		38EE20A017F1786700348130 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		6655011D973440EAA1DAC7E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D12C5811EA0422194373DEF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EE205817F174AF00348130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE206117F174AF00348130 /* CoreGraphics.framework in Frameworks */,
+				38EE206317F174AF00348130 /* UIKit.framework in Frameworks */,
+				38EE205F17F174AF00348130 /* Foundation.framework in Frameworks */,
+				5A9CD61A693644938F2EE599 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE207C17F174AF00348130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE208117F174AF00348130 /* XCTest.framework in Frameworks */,
+				38EE208317F174AF00348130 /* UIKit.framework in Frameworks */,
+				38EE208217F174AF00348130 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EE205217F174AF00348130 = {
+			isa = PBXGroup;
+			children = (
+				38EE209617F174F300348130 /* podfile */,
+				38EE206417F174AF00348130 /* BROrmHaving */,
+				38EE208617F174AF00348130 /* BROrmHavingTests */,
+				38EE205D17F174AF00348130 /* Frameworks */,
+				38EE205C17F174AF00348130 /* Products */,
+				9D12C5811EA0422194373DEF /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		38EE205C17F174AF00348130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EE205B17F174AF00348130 /* BROrmHaving.app */,
+				38EE207F17F174AF00348130 /* BROrmHavingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EE205D17F174AF00348130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38EE205E17F174AF00348130 /* Foundation.framework */,
+				38EE206017F174AF00348130 /* CoreGraphics.framework */,
+				38EE206217F174AF00348130 /* UIKit.framework */,
+				38EE208017F174AF00348130 /* XCTest.framework */,
+				6655011D973440EAA1DAC7E7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38EE206417F174AF00348130 /* BROrmHaving */ = {
+			isa = PBXGroup;
+			children = (
+				38EE209E17F177E900348130 /* Models */,
+				38EE206D17F174AF00348130 /* AppDelegate.h */,
+				38EE206E17F174AF00348130 /* AppDelegate.m */,
+				38EE207017F174AF00348130 /* Main.storyboard */,
+				38EE207317F174AF00348130 /* MasterViewController.h */,
+				38EE207417F174AF00348130 /* MasterViewController.m */,
+				38EE207617F174AF00348130 /* DetailViewController.h */,
+				38EE207717F174AF00348130 /* DetailViewController.m */,
+				38EE207917F174AF00348130 /* Images.xcassets */,
+				38EE209817F1779800348130 /* Resources */,
+				38EE206517F174AF00348130 /* Supporting Files */,
+			);
+			path = BROrmHaving;
+			sourceTree = "<group>";
+		};
+		38EE206517F174AF00348130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EE206617F174AF00348130 /* BROrmHaving-Info.plist */,
+				38EE206717F174AF00348130 /* InfoPlist.strings */,
+				38EE206A17F174AF00348130 /* main.m */,
+				38EE206C17F174AF00348130 /* BROrmHaving-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38EE208617F174AF00348130 /* BROrmHavingTests */ = {
+			isa = PBXGroup;
+			children = (
+				38EE208C17F174AF00348130 /* BROrmHavingTests.m */,
+				38EE208717F174AF00348130 /* Supporting Files */,
+			);
+			path = BROrmHavingTests;
+			sourceTree = "<group>";
+		};
+		38EE208717F174AF00348130 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38EE208817F174AF00348130 /* BROrmHavingTests-Info.plist */,
+				38EE208917F174AF00348130 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38EE209817F1779800348130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38EE209917F1779800348130 /* blog.sqlite */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		38EE209E17F177E900348130 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38EE209B17F177DD00348130 /* Blog.h */,
+				38EE209C17F177DD00348130 /* Blog.m */,
+				38EE209F17F1786700348130 /* Post.h */,
+				38EE20A017F1786700348130 /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EE205A17F174AF00348130 /* BROrmHaving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE209017F174AF00348130 /* Build configuration list for PBXNativeTarget "BROrmHaving" */;
+			buildPhases = (
+				7EFCFCAC24B9484D9DC3D0C4 /* Check Pods Manifest.lock */,
+				38EE205717F174AF00348130 /* Sources */,
+				38EE205817F174AF00348130 /* Frameworks */,
+				38EE205917F174AF00348130 /* Resources */,
+				A319298D47C2489FBBA5322A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BROrmHaving;
+			productName = BROrmHaving;
+			productReference = 38EE205B17F174AF00348130 /* BROrmHaving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38EE207E17F174AF00348130 /* BROrmHavingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EE209317F174AF00348130 /* Build configuration list for PBXNativeTarget "BROrmHavingTests" */;
+			buildPhases = (
+				38EE207B17F174AF00348130 /* Sources */,
+				38EE207C17F174AF00348130 /* Frameworks */,
+				38EE207D17F174AF00348130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EE208517F174AF00348130 /* PBXTargetDependency */,
+			);
+			name = BROrmHavingTests;
+			productName = BROrmHavingTests;
+			productReference = 38EE207F17F174AF00348130 /* BROrmHavingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EE205317F174AF00348130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Goulwen;
+				TargetAttributes = {
+					38EE207E17F174AF00348130 = {
+						TestTargetID = 38EE205A17F174AF00348130;
+					};
+				};
+			};
+			buildConfigurationList = 38EE205617F174AF00348130 /* Build configuration list for PBXProject "BROrmHaving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EE205217F174AF00348130;
+			productRefGroup = 38EE205C17F174AF00348130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EE205A17F174AF00348130 /* BROrmHaving */,
+				38EE207E17F174AF00348130 /* BROrmHavingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EE205917F174AF00348130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE207A17F174AF00348130 /* Images.xcassets in Resources */,
+				38EE209A17F1779800348130 /* blog.sqlite in Resources */,
+				38EE206917F174AF00348130 /* InfoPlist.strings in Resources */,
+				38EE209717F174F300348130 /* podfile in Resources */,
+				38EE207217F174AF00348130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE207D17F174AF00348130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE208B17F174AF00348130 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EFCFCAC24B9484D9DC3D0C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A319298D47C2489FBBA5322A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EE205717F174AF00348130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE209D17F177DD00348130 /* Blog.m in Sources */,
+				38EE20A117F1786700348130 /* Post.m in Sources */,
+				38EE206F17F174AF00348130 /* AppDelegate.m in Sources */,
+				38EE207517F174AF00348130 /* MasterViewController.m in Sources */,
+				38EE206B17F174AF00348130 /* main.m in Sources */,
+				38EE207817F174AF00348130 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EE207B17F174AF00348130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EE208D17F174AF00348130 /* BROrmHavingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EE208517F174AF00348130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EE205A17F174AF00348130 /* BROrmHaving */;
+			targetProxy = 38EE208417F174AF00348130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38EE206717F174AF00348130 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE206817F174AF00348130 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38EE207017F174AF00348130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE207117F174AF00348130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EE208917F174AF00348130 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EE208A17F174AF00348130 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EE208E17F174AF00348130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38EE208F17F174AF00348130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EE209117F174AF00348130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D12C5811EA0422194373DEF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BROrmHaving/BROrmHaving-Prefix.pch";
+				INFOPLIST_FILE = "BROrmHaving/BROrmHaving-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38EE209217F174AF00348130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D12C5811EA0422194373DEF /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BROrmHaving/BROrmHaving-Prefix.pch";
+				INFOPLIST_FILE = "BROrmHaving/BROrmHaving-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38EE209417F174AF00348130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BROrmHaving.app/BROrmHaving";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BROrmHaving/BROrmHaving-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BROrmHavingTests/BROrmHavingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		38EE209517F174AF00348130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BROrmHaving.app/BROrmHaving";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BROrmHaving/BROrmHaving-Prefix.pch";
+				INFOPLIST_FILE = "BROrmHavingTests/BROrmHavingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EE205617F174AF00348130 /* Build configuration list for PBXProject "BROrmHaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE208E17F174AF00348130 /* Debug */,
+				38EE208F17F174AF00348130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE209017F174AF00348130 /* Build configuration list for PBXNativeTarget "BROrmHaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE209117F174AF00348130 /* Debug */,
+				38EE209217F174AF00348130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EE209317F174AF00348130 /* Build configuration list for PBXNativeTarget "BROrmHavingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EE209417F174AF00348130 /* Debug */,
+				38EE209517F174AF00348130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EE205317F174AF00348130 /* Project object */;
+}
